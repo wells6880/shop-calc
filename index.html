@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>task6</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+<header>
+    <img src="img/logo.png" alt="logo">
+    <nav>
+        <ul>
+            <li><a href="#">课程</a></li>
+            <li><a href="#" class="new">职业路径</a></li>
+            <li><a href="#">实战</a></li>
+            <li><a href="#">猿问</a></li>
+            <li><a href="#">手记</a></li>
+        </ul>
+    </nav>
+    <div class="fct">
+        <input type="text" class="search" placeholder="前端入门">
+        <div class="iwrap"><a href="#" class="cart-icon"></a></div>
+        <div class="iwrap"><a href="#" class="warn"></a></div>
+        <a href="#" class="avatar"></a>
+    </div>
+</header>
+<section class="banner"></section>
+<section class="cart">
+    <h3>我的购物车</h3>
+    <div class="cart-wrap">
+        <div class="header">
+            <input type="checkbox" class="check" id="check" checked="checked">
+            <label for="check" class="check-new"></label>
+            <label for="check">全选</label>
+            <span class="name">商品名称</span>
+            <span class="total">总价</span>
+            <span class="price">单价</span>
+            <span class="num">数量</span>
+            <span class="operation">操作</span>
+        </div>
+        <div class="commodity">
+            <input type="checkbox" class="check" id="commodity1-check" checked="checked">
+            <label for="commodity1-check" class="check-new"></label>
+            <label for="commodity1-check"><span class="commodity-img1"></span><span class="commodity-name">前端小白成长日记</span></label>
+            <span class="total">¥396</span>
+            <span class="price">¥396</span>
+            <div class="num-wrap">
+                <input class="btn" type="button" value="-">
+                <input class="num" type="text" value="2">
+                <input class="btn" type="button" value="+">
+            </div>
+            <span class="del">删除</span>
+        </div>
+        <div class="commodity">
+            <input type="checkbox" class="check" id="commodity2-check" checked="checked">
+            <label for="commodity2-check" class="check-new"></label>
+            <label for="commodity2-check"><span class="commodity-img2"></span><span class="commodity-name">前端小白成长日记</span></label>
+            <span class="total">¥396</span>
+            <span class="price">¥396</span>
+            <div class="num-wrap">
+                <input class="btn" type="button" value="-">
+                <input class="num" type="text" value="1">
+                <input class="btn" type="button" value="+">
+            </div>
+            <span class="del">删除</span>
+        </div>
+        <div class="commodity">
+            <input type="checkbox" class="check" id="commodity3-check" checked="checked">
+            <label for="commodity3-check" class="check-new"></label>
+            <label for="commodity3-check"><span class="commodity-img1"></span><span class="commodity-name">前端小白成长日记</span></label>
+            <span class="total">¥396</span>
+            <span class="price">¥396</span>
+            <div class="num-wrap">
+                <input class="btn" type="button" value="-">
+                <input class="num" type="text" value="1">
+                <input class="btn" type="button" value="+">
+            </div>
+            <span class="del">删除</span>
+        </div>
+        <div class="commodity">
+            <input type="checkbox" class="check" id="commodity4-check" checked="checked">
+            <label for="commodity4-check" class="check-new"></label>
+            <label for="commodity4-check"><span class="commodity-img1"></span><span class="commodity-name">前端小白成长日记</span></label>
+            <span class="total">¥396</span>
+            <span class="price">¥396</span>
+            <div class="num-wrap">
+                <input class="btn" type="button" value="-">
+                <input class="num" type="text" value="1">
+                <input class="btn" type="button" value="+">
+            </div>
+            <span class="del">删除</span>
+        </div>
+    </div>
+    <div class="result">
+        <span class="content">应付金额：¥<span id="money"></span></span><span class="result-btn">结算</span>
+    </div>
+</section>
+<footer>
+    <div class="footer-wrap clearfix">
+        <div class="content-wrap">
+            <nav>
+                <ul>
+                    <li><a href="#">网站首页</a></li>
+                    <li><a href="#">企业合作</a></li>
+                    <li><a href="#">人才招聘</a></li>
+                    <li><a href="#">联系我们</a></li>
+                    <li><a href="#">讲师招聘</a></li>
+                    <li><a href="#">常见问题</a></li>
+                    <li><a href="#">意见反馈</a></li>
+                    <li><a href="#">慕课大学</a></li>
+                    <li><a href="#">友情链接</a></li>
+                </ul>
+            </nav>
+            <p>Copyright © 2017 imooc.com All Rights Reservde | 京ICP备 13046642号-2</p>
+        </div>
+        <div class="share">
+            <span class="wechat"></span>
+            <span class="microblog"></span>
+            <span class="qq"></span>
+            <span class="qr"></span>
+        </div>
+    </div>
+</footer>
+</body>
+<script src="js/script.js"></script>
+</html>
